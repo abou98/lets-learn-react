@@ -15,8 +15,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
+  min-height: 10vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -26,6 +26,35 @@
 
 .App-link {
   color: #61dafb;
+}
+
+ .App-main{
+  display: grid;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+button{
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 1.2rem
+}
+
+.red{
+  background-color: red;
+  color: white;
+}
+
+.yellow{
+  background-color: yellow;
+  color: black;
+}
+
+.blue{
+  background-color: blue;
+  color: white
 }
 
 @keyframes App-logo-spin {
